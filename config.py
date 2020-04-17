@@ -1,0 +1,10 @@
+url = "http://127.0.0.1:32400" # the URL at which your server can be accessed
+memcache_address = 'localhost'
+memcache_port = 8080
+invalidation_time = 86400 # this is the time we can store something in memcache before it is known as invalid
+use_dtdd_web_api = True
+dtdd_web_api_address = "http://dtdd.valknight.xyz" # this is the address the dtdd_api can be found at
+use_short_names = False # this will simply put out what does match as a list on a single line, instead of the full question
+dtdd_api_enabled = True
+dtdd_api_key = "80555bc07790b790df1f4558e526fa7f"
+use_memcache = False

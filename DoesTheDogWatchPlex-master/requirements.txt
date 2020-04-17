@@ -1,0 +1,6 @@
+beautifulsoup4
+lxml
+tqdm
+requests
+Flask-API
+pymemcache
