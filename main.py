@@ -177,7 +177,7 @@ class movie:
         string += str(math.ceil(self.triggerProbability))+"/"+str(100)
         return string
 def searchByTitle(title):
-    collection = "SELECT * FROM Movies WITH "
+    collection = "SELECT * FROM Movies m WHERE m.title IS '" + str(title) + "';"
 def searchByActor(name):
     pass
 def searchByYear(year):
